@@ -1,0 +1,42 @@
+    div:hover{
+        background-color: deeppink;
+        color: darkslategrey;
+    }
+    div{
+        background-color: rgb(2, 225, 196);
+        color: rgb(0, 0, 0);
+        border-color: chartreuse;
+        border-style: dashed;
+    }
+    .df1:hover{
+        color: green;
+        background-color: teal;
+    }
+    .p1:hover{
+        background-color:rgb(138, 151, 0);
+        color: darkslategray;
+        
+    }
+    .link1:hover{
+        color: magenta;
+        background-color: firebrick;
+    }
+    .img1:hover{
+        border-radius: 1000%;
+        opacity: 30%;
+    }
+    .img2:hover{
+        transform:scaleY(-1)
+    }
+    @keyframes loading {
+        0% {
+            transform: rotate(0);
+        }
+        100% {
+            transform:rotate(360deg);
+        }
+    }
+    .cassio:hover{
+        animation: loading 2s linear infinite;
+    }
+    
